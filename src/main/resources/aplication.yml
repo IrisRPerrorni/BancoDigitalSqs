@@ -1,0 +1,12 @@
+cloud:
+  aws:
+    region:
+      static: us-east-1
+      auto: false
+    credentials:
+      access-key: key
+      secret-key: 1234
+    end-point:
+      uri: http://localhost:4566
+    queue:
+      name: notificacao
